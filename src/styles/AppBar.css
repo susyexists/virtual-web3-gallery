@@ -1,0 +1,44 @@
+.AppBar{
+  margin: 2vh 0;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+
+.AppButtonSelected{  
+  /* background-color: unset; */
+  font-size: 4vw;
+width: 27%;
+border-radius: 20px;
+padding: 4px;
+border-color: rgb(224, 202, 251);
+border:3px dashed;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+.AppButton{  
+  font-size: 4vw;
+  background-color: unset;
+width: 30%;
+border-radius: 20px;
+padding: 4px;
+color: rgb(224, 202, 251);
+border:3px dashed;
+text-align: center;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+.AppButton:hover { 
+  background:rgb(224, 202, 251);
+  color: black;
+}
+ .AppButton:active {
+  background-color: unset;
+  color: rgb(224, 202, 251);
+  border-radius: 20px;
+  text-align: center;
+}
+

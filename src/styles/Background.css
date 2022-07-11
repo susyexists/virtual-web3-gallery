@@ -1,0 +1,42 @@
+.Container {
+    display: flex;;
+    /* align-items: center; */
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.Item{    
+    width: 100%;
+text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: unset;
+    color:rgb(224, 202, 251);
+    border:5px dashed;
+    border-radius: 0;
+    font-size:150%;
+    margin:0 5%;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.Button:hover { 
+    background:rgb(224, 202, 251);
+    color: black;
+
+  }
+   
+.Button:active {
+    background:black;
+    color: wheat;
+}

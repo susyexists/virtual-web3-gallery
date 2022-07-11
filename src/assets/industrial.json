@@ -1,0 +1,26 @@
+{isActive && (
+<div className="ItemText">
+  {/* SELECTRON */}
+  <h1>Software Developer 2022-Present</h1>
+  <h2> selectron.me Remote </h2>
+  <li>Full stack web projects</li>
+  <li>Smart contract development s</li>
+  {/* NORTHEASTERN */}
+  <h1>Research Assistant 2021-Present</h1>
+  <h2> Northeastern University Boston, MA </h2>
+  <li> Data analysis and visualization</li>
+  <li>Workflow automation and continuous integration</li>
+  {/* PRODUCTION@HOME */}
+  <h1>Game Developer 2020-2021</h1>
+  <h2> production@home Remote </h2>
+  <li> Cross-platform game development</li>
+  {/* NORTHEASTERN */}
+  <h1>Research Assistant 2018-2021</h1>
+  <h2> Istanbul Technical University Istanbul, TR </h2>
+  <li> Analytical problem solving</li>
+  <li>
+    Lecturing undergraduate and graduate level courses Cross-platform
+    game development
+  </li>
+</div>
+)}

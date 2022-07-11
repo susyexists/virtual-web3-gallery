@@ -1,0 +1,24 @@
+
+.GameContainer{
+    /* display: flex; */
+    align-items: center;
+    /* background: pink; */
+    padding: 0;
+    height: 70vh;
+    /* width: 70vw; */
+    border: solid 10px   rgb(224, 202, 251);
+    border-radius: 10px;
+    border-style: dashed;
+}
+.Game {
+    /* padding: 50px; */
+border: 50px wheat;
+width: 100%;
+height: 100%;
+}
+
+
+canvas{
+    width: 100%;
+    height: 100%;
+}
